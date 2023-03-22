@@ -225,3 +225,28 @@ footer p a:hover {
         font-size: 27px;
     }
 }
+
+@media (max-width: 800px) {
+    .topo {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+        padding-bottom: 50px;
+    }
+
+    .topo-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .conteudo {
+        padding-top: 50px;
+    }
+
+    button {
+        margin-block: 20px;
+    }
+}
